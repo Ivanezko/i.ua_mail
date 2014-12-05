@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.phonegap.example"
+        versionCode="10"
+        version   = "0.0.0.1">
+
+    <name>Baraban 24</name>
+    <preference name="phonegap-version" value="3.6.3" />
+
+    <description>
+        Gonki.in.ua baraban field mobile app for people who enters the data
+    </description>
+
+    <author href="https://ivanezko.com" email="ivanezko@gmail.com">
+        Ivan Eidemiller
+    </author>
+
+    <access origin="*" />
+
+    <plugin name="Battery" value="org.apache.cordova.BatteryListener" />
+    <plugin name="NetworkStatus" value="org.apache.cordova.NetworkManager" />
+    <gap:plugin name="org.apache.cordova.device" />
+</widget>
