@@ -6,11 +6,11 @@
         version   = "0.0.0.1">
 
 
-    <name>Baraban 24</name>
+    <name>I.UA mail</name>
     <preference name="phonegap-version" value="3.6.3" />
 
     <description>
-        Gonki.in.ua baraban field mobile app for people who enters the data
+        клиент для почты
     </description>
 
     <author href="https://ivanezko.com" email="ivanezko@gmail.com">
