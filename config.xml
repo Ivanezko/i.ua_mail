@@ -5,6 +5,7 @@
         versionCode="10"
         version   = "0.0.0.1">
 
+
     <name>Baraban 24</name>
     <preference name="phonegap-version" value="3.6.3" />
 
