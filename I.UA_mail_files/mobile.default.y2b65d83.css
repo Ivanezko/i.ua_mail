@@ -56,7 +56,7 @@ i.wait:before{display:inline-block; content:'W'; font:20px/1 'icons'; min-width:
 div :not(._bottom) ._active,div :not(._bottom) ._active:before{border-bottom-left-radius:0; border-bottom-right-radius:0;}
 .toolbar ._active{margin-bottom:-1px; padding-top:10px; padding-bottom:12px;}
 @media screen and (max-width:480px){
-html{-webkit-text-size-adjust:none;}
+    html{-webkit-text-size-adjust:none;}
 }
 #scrollup{position:fixed; z-index:255; bottom:40px; right:20px; display:none;}
 #scrollup:before{display:inline-block; content:'u'; font:40px/1 'icons'; min-width:40px; border-radius:2px; opacity:.2; background:rgb(255,255,255); filter:alpha(opacity=20);}
@@ -67,12 +67,12 @@ html{-webkit-text-size-adjust:none;}
 .footer_advertising + footer {border-top: 0;}
 
 .block_wraper {
-	padding-top: 56px;
+    padding-top: 56px;
 }
 .block_wraper>.toolbar {
-	width: 100%;
-	position: fixed !important;
-	margin-top: -56px;
-	z-index: 255;
-	background-color: rgb(255,255,255);
+    width: 100%;
+    position: fixed !important;
+    margin-top: -56px;
+    z-index: 255;
+    background-color: rgb(255,255,255);
 }
